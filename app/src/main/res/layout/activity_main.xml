@@ -61,14 +61,14 @@
         android:layout_marginTop="20dp">
 
         <Button
+            android:id="@+id/loginBtn"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="로그인"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#c00"
-            android:background="#fff"
-            />
+            android:background="#fff"/>
 
     </LinearLayout>
 
@@ -79,6 +79,7 @@
         android:layout_marginTop="50dp">
 
         <TextView
+            android:id="@+id/findPwtxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="비밀번호 찾기"
